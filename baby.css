@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+body {
+  display: block;
+  border-radius: 30px;
+}
+.container {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: rgb(231, 224, 224);
+}
+img {
+  object-fit: contain;
+  height: 250px;
+  width: 100%;
+}
+.icons {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+span {
+  padding: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+span .red {
+  color: red;
+}
+span .purple {
+  color: purple;
+}
+.kid-body {
+  width: 100%;
+}
+.inner-body img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.inner-body {
+  padding: 5px;
+  display: flex;
+}
+.message {
+  padding: 12px;
+  width: 100%;
+  font-size: small;
+}
+.message h5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes {
+  padding: 5px;
+  display: flex;
+  gap: 20px;
+}
+.reply {
+  padding: 5px;
+  display: flex;
+}
+.comment {
+  width: 90%;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.comment input {
+  padding: 20px;
+  width: 85%;
+  border-radius: 20px 0 0 20px;
+}
+.comment .smile {
+  width: 15%;
+  padding: 20px;
+  background-color: rgb(187, 179, 179);
+  border-radius: 0 20px 20px 0;
+}
+
+@media (min-width: 425px) {
+  body {
+    width: 425px;
+    margin: auto;
+  }
+}
