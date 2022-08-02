@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 425px;
+  margin: auto;
+}
+
 img {
   object-fit: cover;
 }
 
 .container {
   background-color: #e7e4e4;
-  border-radius: 50px;
   display: block;
 }
 
@@ -19,7 +23,7 @@ img {
   background: url(new-born.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0 0 20px 20px;
+  border-radius:20px;
 }
 
 .roll-one {
@@ -140,9 +144,6 @@ img {
   border-radius: 5px;
   padding: 3px;
 }
-@media (min-width:425px) {
-    body {
-        width: 425px;
-        margin: auto;
-    }
+@media (max-width:768px) {
+   
 }
